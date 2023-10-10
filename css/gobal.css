@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #001f1b;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 20px 80px;
+    z-index: 3;
+    background-color: #001f1b;
+}
+
+
+section {
+    text-align: center;
+}
+
+footer {
+    padding: 30px 150px;
+    background-color: #0e3833;
+}
+
+
+.ft-wp {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.ft-logo {
+    padding-right: 150px;
+}
+
+.ft-logo img {
+    margin: 40px 0 0 25px;
+}
+
+.ft-logo p {
+    color: #ccc;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.ft-menu {
+    display: flex;
+}
+
+.menu-list {
+    padding: 0 20px;
+}
+
+.menu-list h3 {
+    font-size: 20px;
+    color: #66a65e;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.menu-list ul li {
+    padding: 10px 0;
+}
+
+.menu-list ul li a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+.menu-list ul li a:hover {
+    color: #fff;
+}
+
+.icon-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.icon-list li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.icon-list li:hover {
+    background-color: #66a65e;
+}
+
+.icon-list li a i{
+    font-size: 20px;
+    padding: 0 10px;
+
+}
+
+.copyright {
+    background-color: #0e3833;
+    color: #ccc;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.bourn-img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* form-text */
+.bg-cl2 {
+    background-color: #0e3833;
+    position: relative;
+    padding-top: 50px;
+}
+
+.form-text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.form-text h1 {
+    color: #1a755c;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-text h2 {
+    color: #66a65e;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.form-text p {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-text button {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #67a65e;
+    cursor: pointer;
+    margin: 40px 0;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-text button:hover {
+    transform: scale(1.05);
+}
+
